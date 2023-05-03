@@ -1,9 +1,10 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+("https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">) ;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 html {
-    background-color: lightgray;
+    background-color:blueviolet;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -21,6 +22,10 @@ h1 {
     line-height: 2.5em;
 }
 
+
+h1.page-header{
+    font-family: 'Poppins', sans-serif;
+}
 main.wrapper {
     background-color: white;
     overflow: auto;
